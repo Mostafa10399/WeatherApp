@@ -44,7 +44,7 @@
 		DE6C23A82C07E14000B15003 /* WeatherAppTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6C23AC2C07E14000B15003 /* WeatherAppTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppTaskUITests.swift; sourceTree = "<group>"; };
 		DE6C23AE2C07E14000B15003 /* WeatherAppTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DE6C23BC2C08B56E00B15003 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Networking; path = ../../Networking; sourceTree = "<group>"; };
+		DE6C23BD2C0A041900B15003 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 		DE6C23BB2C08B38B00B15003 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				DE6C23BC2C08B56E00B15003 /* Networking */,
+				DE6C23BD2C0A041900B15003 /* Networking */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
