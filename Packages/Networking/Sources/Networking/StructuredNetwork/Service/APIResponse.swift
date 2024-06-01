@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct APIResponse<T: Decodable>: Decodable {
+public struct APIResponse<T: Decodable>: Decodable {
     let status: String
     let data: T?
 }

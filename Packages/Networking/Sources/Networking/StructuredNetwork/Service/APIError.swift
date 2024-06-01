@@ -12,4 +12,8 @@ public enum APIError: Equatable, Error {
     case encodingFailed
     case missingURL
     case invalidURL
+    case badRequest
+    case decodingFailed
+    case customError(statusCode: Int)
+    case requestFailed
 }
